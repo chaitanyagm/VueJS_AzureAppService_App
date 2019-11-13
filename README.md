@@ -35,6 +35,6 @@ npm run lint
 ### 5. Run the following cURL command to send files in 'dist' folder to target ftps
 ```
 
-$ find dist -type f -exec curl -v --user testvueey$testvueey:KakFjG3q6kJ7CcSptJCxeSeANHyEekgmla6xxxgfuRSokmEwlqWwJar0sY4M --ftp-create-dirs -T {} ftps://waws-prod-sy3-021.ftp.azurewebsites.windows.net/site/wwwroot/ \;
+$ find dist -type f -exec curl -v --user username:password --ftp-create-dirs -T {} ftps://url.azurewebsites.windows.net/site/wwwroot/ \;
 ```
 ### 6. Alternatively use WinSCP to manually upload files
