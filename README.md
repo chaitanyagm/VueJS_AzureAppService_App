@@ -35,9 +35,9 @@ npm run build
 
 ### 4. Select FTP
 
-### 4. Click dashboard to obtain FTP credentials
+### 5. Click dashboard to obtain FTP credentials
 
-### 5. Run the following cURL command to send files in 'dist' folder to target ftps
+### 6. Run the following cURL command to send files in 'dist' folder to target ftps
 ```
 
 $ find dist -type f -exec curl -v --user username:password --ftp-create-dirs -T {} ftps://url.azurewebsites.windows.net/site/wwwroot/ \;
