@@ -23,6 +23,10 @@ npm run lint
 ##
 ## Azure App Services Deploy using FTP
 
+### 0. Compiles and minifies for production
+```
+npm run build
+```
 ### 1. Create An App Service Plan
 
 ### 2. Create an Azure Web App
